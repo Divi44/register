@@ -34,8 +34,7 @@ public class xyzauto {
 		driver.findElement(By.xpath("//*[@name='password']")).sendKeys(password);
 		driver.findElement(By.xpath("//*[@class='oxd-button oxd-button--medium oxd-button--main orangehrm-login-button']")).click();
 		System.out.println("Pass");
-		System.out.println("successful");
-		System.out.println("jenkins done finally");
+		
 		
 		//driver.quit();
 		
